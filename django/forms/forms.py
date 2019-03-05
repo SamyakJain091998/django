@@ -1,9 +1,6 @@
 """
 Form classes
 """
-
-import copy
-
 from django.core.exceptions import NON_FIELD_ERRORS, ValidationError
 # BoundField is imported for backwards compatibility in Django 1.9
 from django.forms.boundfield import BoundField  # NOQA
